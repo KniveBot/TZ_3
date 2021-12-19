@@ -13,7 +13,7 @@ If you are just a passerby continue your journey. There is nothing of interest f
 ### После выполнения программы проводятся тесты на правильность ее выполнения
 ### Также проводится тест для подсчета времени исполнения программы при нормальном вводе и при увеличении размера входного файла.
 
-![example workflow](https://github.com/github/TZ_3/actions/workflows/main.yml/badge.svg)
+![example workflow](https://github.com/KniveBot/TZ_3/actions/workflows/main.yml/badge.svg)
 
 ### Пример:
 ##### В файле:
