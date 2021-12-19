@@ -1,5 +1,5 @@
 from math import isclose
-from TZ_3 import program
+import program
 import pytest
 import time
 import random
