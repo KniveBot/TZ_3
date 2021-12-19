@@ -20,4 +20,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Run command 
-        run: TZ_3/test.py
+        run: KniveBot/TZ_3/test.py
