@@ -11,6 +11,6 @@ jobs:
     
     steps:
      - name: Start
-       run: test.py
+       run: python3 test.py 
      
       
