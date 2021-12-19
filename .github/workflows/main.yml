@@ -8,15 +8,16 @@ on:
 jobs:
   testing:
     runs-on: ubuntu-latest
-    
     steps:
-     - name: cd
-       run: |
-        cd ..
-        cd ..
-        cd ..
-        echo $(ls)
-     - name: Start
-       run: echo $(ls)
-     - name: test
-       run: python3 TZ_3/test.py
+      - uses: actions/checkout@v2
+      - name: Set up Python 3.8
+        uses: actions/setup-python@v1
+        with:
+          python-version: 3.8
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install pylint
+      - name: Test with pytest
+        run: |
+          pylint `ls -R|grep .py$|xargs`
