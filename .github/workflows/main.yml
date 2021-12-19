@@ -1,0 +1,16 @@
+name: RunTests
+
+on:
+  push:
+   branches: 
+    - main
+
+jobs:
+  testing:
+    runs-on: ubuntu-latest
+    
+    steps:
+     - name: Start
+     - run: test.py
+     
+      
