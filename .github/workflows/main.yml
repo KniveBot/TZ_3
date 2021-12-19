@@ -8,21 +8,6 @@ on:
 jobs:
   testing:
     runs-on: ubuntu-latest
-    
-    steps:  
-     - name: npm install
-       run: npm install
-
-     - name: Lint
-       run: npm run format-check
-
-     - name: npm test
-       run: npm test
-
-     - name: Run with setup-python 2.7
-       uses: ./
-       with:
-        python-version: 2.7
-     - name: Verify 2.7
-       run: python test.py
+      - name: Start
+        run: python3 test.py
 
