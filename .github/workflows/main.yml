@@ -11,7 +11,11 @@ jobs:
     
     steps:
      - name: cd
-       run: cd ..
+       run: |
+        cd ..
+        cd ..
+        cd ..
+        echo $(ls)
      - name: Start
        run: echo $(ls)
      - name: test
