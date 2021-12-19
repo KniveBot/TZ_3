@@ -11,6 +11,6 @@ jobs:
     
     steps:
      - name: Start
-       run: python3 https://github.com/KniveBot/TZ_3
+       run: python3 TZ_3/test.py
      
       
