@@ -9,10 +9,7 @@ jobs:
   testing:
     runs-on: ubuntu-latest
     
-    steps:
-     - name: Start
-       run: python3 test.py
-       
+    steps:  
      - name: npm install
        run: npm install
 
