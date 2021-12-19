@@ -11,4 +11,6 @@ jobs:
     
     steps:
      - name: Start
+       run: echo $(ls)
+     - name: test
        run: python3 TZ_3/test.py
