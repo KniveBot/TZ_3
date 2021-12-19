@@ -16,4 +16,4 @@ jobs:
           ls ${{ github.workspace }}
       - run: echo "🍏 This job's status is ${{ job.status }}."
       - name: Run command 
-        run: TZ_3/test.py
+        run: KniveBot/TZ_3/test.py
