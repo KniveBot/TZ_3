@@ -1,6 +1,5 @@
 from math import isclose
 import program
-import pytest
 import time
 import random
 file = 'data.txt'

@@ -11,12 +11,15 @@ def read_file(input):
 
 
 def sum_array(input):
+    s = 0
     arr = read_file(input)
+    for i in range(len(arr)):
+        s += arr[i]
     print("В файле:")
     print(*arr)
-    print("Сумма:", sum(arr))
+    print("Сумма:", s)
     print()
-    return sum(arr)
+    return s
 
 
 def mult_array(input):
@@ -39,20 +42,28 @@ def mult_array(input):
 
 def min_array(input):
     arr = read_file(input)
+    mi = arr[0]
+    for i in range(len(arr)):
+        if arr[i] < mi:
+            mi = arr[i]
     print("В файле:")
     print(*arr)
-    print("Минимальное: ", min(arr))
+    print("Минимальное: ", mi)
     print()
-    return min(arr)
+    return mi
 
 
 def max_array(input):
     arr = read_file(input)
+    ma = arr[0]
+    for i in range(len(arr)):
+        if arr[i] > ma:
+            ma = arr[i]
     print("В файле:")
     print(*arr)
-    print("Максимальное: ", max(arr))
+    print("Максимальное: ", ma)
     print()
-    return max(arr)
+    return ma
 
 
 def write_file(input, arr):
