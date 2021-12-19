@@ -14,8 +14,6 @@ If you are just a passerby continue your journey. There is nothing of interest f
 ### Также проводится тест для подсчета времени исполнения программы при нормальном вводе и при увеличении размера входного файла.
 
 Test_Status: ![example workflow](https://github.com/KniveBot/TZ_3/actions/workflows/main.yml/badge.svg)
-Status of Last Deployment:<br>
-<img src="https://github.com/KniveBot/TZ_3/workflows/RunTests/badge.svg?branch=master"><br>
 
 ### Пример:
 ##### В файле:
